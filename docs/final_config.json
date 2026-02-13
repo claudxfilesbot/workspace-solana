@@ -1,0 +1,9 @@
+{
+  "project_id": "project-a65bf396-8524-45f7-8d6",
+  "project_number": "896576048180",
+  "bucket_name": "viedos-2026ai-us",
+  "bucket_region": "us-central1",
+  "vertex_ai_region": "us-central1",
+  "service_account": "vertex-express@project-a65bf396-8524-45f7-8d6.iam.gserviceaccount.com",
+  "credentials_file": "vertex-express-key.json"
+}
