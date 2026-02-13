@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "vertex": {
+      "description": "Vertex AI MCP (Gemini via google-genai)",
+      "command": "python3",
+      "args": [
+        "/home/claudio.alcaman/.openclaw/workspace/mcp-vertex-simple/server.py"
+      ]
+    }
+  },
+  "imports": []
+}
