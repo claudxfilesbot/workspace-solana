@@ -1,0 +1,22 @@
+{
+  "name": "github-po",
+  "version": "0.1.0",
+  "description": "Skill para interactuar con GitHub desde OpenClaw",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "github",
+    "api",
+    "openclaw",
+    "skill"
+  ],
+  "author": "claudxfilesbot",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "octokit": "^3.0.0"
+  }
+}

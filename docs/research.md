@@ -211,3 +211,5 @@ Documentar experimentos con modelos de Vertex AI. Guardar qué funcionó, qué n
 ---
 
 *Última actualización: 2026-02-13*
+GCS_BUCKET=gs://viedos_2026ai
+GCP_PROJECT_ID=project-a65bf396-8524-45f7-8d6

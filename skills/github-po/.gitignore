@@ -1,0 +1,14 @@
+# .gitignore - skills/github-po
+
+# Variables de entorno
+.env
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Otras
+.DS_Store
+*.log

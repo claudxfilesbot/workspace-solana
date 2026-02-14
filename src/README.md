@@ -22,17 +22,17 @@ src/
 ## Scripts Individuales
 
 ### vertex_ai_client.py
-Cliente base para todos los modelos de Vertex AI. Necesita integración real con MCP Vertex que ya existe en el sistema.
+Cliente base para todos los modelos de Vertex AI. Maneja configuración y envío de prompts.
 
 ### script_generator.py
 Usa Gemini 2.5 Pro para generar guiones completos con [VISUAL] y [MÚSICA] tags.
 
 ### asset_generator.py
 Orquesta la generación de todos los assets:
-1. Narración con Chirp 3
-2. Imágenes con Imagen 4
-3. Video con Veo 3.1
-4. Música con Lyria 2
+1. Narración con Chirp 3 (placeholder actual)
+2. Imágenes con Imagen 4 (placeholder actual)
+3. Video con Veo 3.1 (prompt generation para usuario)
+4. Música con Lyria 2 (placeholder actual)
 
 ### video_assembler.py
 Usa FFmpeg para ensamblar:
@@ -42,9 +42,36 @@ Usa FFmpeg para ensamblar:
 - Subtítulos
 - Transiciones
 
+### config_validator.py
+Valida que todo esté correctamente configurado antes de producción:
+- Variables de entorno
+- Configuración de proyecto
+- Cost estimates para APIs
+
+## Utilidades (utils/)
+
+### logger.py
+Logger configurado para producción con logs tanto en archivo como en consola.
+- Archivo: `output/logs/production.log`
+- Consola: stdout con formato estructurado
+
+### cost_tracker.py
+Rastrea el uso y costo de APIs:
+- Gemini 2.5 Pro (texto)
+- Imagen 4 (imágenes)
+- Veo 3.1 (video)
+- Chirp 3 (voz)
+- Lyria 2 (música)
+
+### file_manager.py
+Maneja organización de directorios de salida:
+- Estructura automática
+- Operaciones de copiado
+- Limpieza de outputs
+
 ## Próximos Pasos
 
-1. **Integrar MCP Vertex**: Ya existe MCP-Vertex en el sistema, conectar client.py con él
+1. **Integrar MCP Vertex real**: Ya existe MCP-Vertex en el sistema, conectar client.py con él
 2. **Implementar sincronización**: Usar llaves MCP-Vertex y llaves MCP-Vertex-simple
 3. **Agregar tests**: Unit tests para cada script
 4. **Documentar API endpoints**: Crear docs/api/ con endpoints de cada modelo
@@ -57,4 +84,4 @@ Usa FFmpeg para ensamblar:
 
 ---
 
-*Última actualización: 2026-02-13*
+*Última actualización: 2026-02-14* (Arquitectura completa implementada)
