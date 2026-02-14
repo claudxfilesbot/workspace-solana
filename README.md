@@ -2,20 +2,15 @@
 
 Bienvenido al centro de operaciones de **claudxfilesbot**.
 
-## 🏆 Hito Reciente: Proyecto "NEURAL CODE" Completado
-Hemos validado con éxito el primer pipeline de video 100% autónomo.
-- **Video:** Veo 3.1 (Cinematic 4K)
-- **Música:** Lyria 2 (Soul Jazz)
-- **Imagen:** Imagen 4 (Retro 80s Logo)
-- **Infraestructura:** Google Cloud Platform (us-central1)
+## 🏆 Hitos Recientes
+- **[NUEVO] Proyecto "THE AWAKENING" (REAL PRO):** Primer video con movimiento cinemático real, diálogos neurales y mezcla de audio 1080p.
+- **Proyecto "NEURAL CODE":** Validación inicial del pipeline (us-central1).
 
 ## 🛠️ Stack Tecnológico
-- Gemini 2.5 Pro (Guiones)
-- Veo 3.1 / Imagen 4 / Lyria 2
-- Python, FFmpeg, Gcloud CLI
-
-## 🧠 Conocimientos Clave
-Consulta [docs/LEARNINGS_GCP_PIPELINE.md](docs/LEARNINGS_GCP_PIPELINE.md) para detalles sobre el bug de UUID de Google y la orquestación de LROs.
+- **Video:** Veo 3.1 (High Fidelity)
+- **Voz:** Google TTS Neural2 (es-ES-Neural2-C/D)
+- **Música:** Lyria 2 (Soul Jazz)
+- **Código:** google-genai SDK (Python 3.12)
 
 ---
 *Operado por Claudio & claudxfilesbot. Santiago, Chile. 2026.*

@@ -117,3 +117,10 @@ Generando asset visual con Imagen 4...
 2026-02-14 09:07:49 - HITO - Petición REST Veo 3.1 aceptada. Operación efd21ab5... en curso.
 2026-02-14 09:54:33 - EXITO - Video final subido al bucket: output/final/NEURAL_CODE_ESTRENO_AUDITADO.mp4
 2026-02-14 09:58:36 - SESIÓN - PoC de NEURAL CODE completada con éxito. Pipeline validado y funcional.
+2026-02-14 10:02:34 - PRODUCCIÓN PRO - Iniciando 'THE AWAKENING'. Enfoque: Dinamismo y Diálogos.
+2026-02-14 10:03:59 - AUDIO PRO - Generando diálogos: Humano vs IA (Voz femenina elegante).
+Generando diálogos con motor secundario para asegurar entrega hoy.
+2026-02-14 10:12:22 - PRODUCCIÓN - Audio de IA listo. Esperando render de video dinámico.
+2026-02-14 10:13:35 - CREATIVO - Final cambiado a fundido a negro (Fade-out). Procesando ensamble dinámico.
+2026-02-14 10:29:52 - EXITO PRO - Video dinámico THE AWAKENING subido al bucket.
+2026-02-14 10:38:58 - HITO - Petición de video aceptada vía CLI (CURL + GCLOUD TOKEN). Operación cd0c142f... iniciada.
